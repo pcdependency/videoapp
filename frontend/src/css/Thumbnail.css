@@ -1,0 +1,43 @@
+.thumbnailContainer {
+  cursor: pointer;
+  width: 200px;
+  max-width: 230px;
+}
+
+.thumbnailImg {
+  width: 200px;
+  height: 112px;
+  object-fit: cover;
+}
+
+.thumbnailTitleTxt {
+  font-weight: bold;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.thumbnailViewsTxt {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 500px) {
+  .thumbnailContainer {
+    width: 100%;
+  }
+
+  .thumbnailImg {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .thumbnailContainer {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .thumbnailImg {
+    width: 100%;
+    height: calc(((100vw - 40px) * 9) / 16);
+  }
+}

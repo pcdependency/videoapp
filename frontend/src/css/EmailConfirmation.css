@@ -1,0 +1,29 @@
+.validateEmailContainer {
+  margin-top: 50px;
+  padding: 0 20px 0 70px;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(224, 222, 61);
+}
+
+.validateEmailTxt {
+  color: black;
+  font-weight: bold;
+}
+
+.confirmBtn {
+  margin-left: 10px !important;
+  font-weight: bold !important;
+}
+
+@media screen and (max-width: 500px) {
+  .validateEmailContainer {
+    padding-left: 20px;
+  }
+  .validateEmailTxt {
+    font-size: 60%;
+  }
+}

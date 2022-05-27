@@ -1,0 +1,64 @@
+.headerContainer {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: blue; */
+  background-color: rgb(20, 20, 20);
+  max-height: 50px;
+}
+
+.headerLeftContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: green; */
+}
+
+.headerSearchContainer {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  /* background-color: red; */
+}
+
+.headerSearchInput {
+  height: 20px;
+  width: 100%;
+  border-radius: 2px;
+  border: none;
+}
+
+.headerRightContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: green; */
+}
+
+.menuIcon {
+  height: 35px !important;
+  width: 35px !important;
+}
+
+.bellIcon {
+  height: 25px !important;
+  width: 25px !important;
+}
+
+.searchIcon {
+  height: 25px !important;
+  width: 25px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .headerSearchContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+  }
+}

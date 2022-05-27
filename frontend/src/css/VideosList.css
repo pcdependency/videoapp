@@ -1,0 +1,27 @@
+.videosListContainer {
+  height: 100%;
+  width: 100%;
+  /* background-color: purple; */
+}
+
+.videosListInnerContainer {
+  height: 100%;
+  padding: 20px;
+  display: grid;
+  justify-content: flex-start;
+  grid-gap: 8px;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+@media screen and (max-width: 500px) {
+  .videosListInnerContainer {
+    grid-template-columns: repeat(auto-fit, minmax(224px, auto));
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .videosListInnerContainer {
+    grid-template-columns: repeat(auto-fit, minmax(100%, auto));
+  }
+}

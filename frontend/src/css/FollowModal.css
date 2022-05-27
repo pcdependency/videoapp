@@ -1,0 +1,47 @@
+.followModal {
+  display: flex;
+  flex-direction: row;
+}
+
+.followModal > p:nth-of-type(1) {
+  margin-right: 10px !important;
+}
+
+.followModal > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.followUsersContainer {
+  max-height: 400px;
+  overflow-y: scroll !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.followUserContainer {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(10, 10, 10);
+  border-radius: 5px;
+  margin: 5px 0;
+  align-content: center;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.followUserInfoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .followTxt {
+    font-size: 80%;
+  }
+}

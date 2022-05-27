@@ -1,0 +1,93 @@
+.formModalBtn {
+  height: 40px;
+  width: 150px;
+  margin: 0 0 0 20px;
+}
+
+.videoIcon {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+.authModalBtn.left {
+  margin: 10px 0 !important;
+  border-radius: 2px 0 0 2px;
+}
+
+.authModalBtn.right {
+  margin: 10px 20px 10px 0 !important;
+  border-radius: 0 2px 2px 0;
+}
+
+.modalHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px !important;
+}
+
+.closeIcon {
+  filter: brightness(0) saturate(100%) invert(82%) sepia(8%) saturate(3211%)
+    hue-rotate(14deg) brightness(103%) contrast(98%);
+}
+
+.modalHeaderTxt {
+  font-size: 120%;
+  margin-bottom: 5px !important;
+  font-weight: bold;
+}
+
+.modalRequiredTxt {
+  margin-left: 5px !important;
+  font-size: 60%;
+  color: rgb(224, 222, 61);
+}
+
+.modalHeaderTxt::first-letter {
+  text-transform: uppercase;
+}
+
+.modalBodyContainer {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 10px;
+}
+
+.modalHeaderTopContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.forgotTxt {
+  margin-top: 5px !important;
+  font-size: 80%;
+  text-decoration: underline;
+  text-decoration-color: rgb(224, 222, 61);
+  cursor: pointer;
+}
+
+.forgotTxt:hover {
+  text-decoration: none;
+}
+
+.forgotPasswordTxt {
+  font-size: 80%;
+  transition: ease-in-out 0.1s;
+  text-decoration: underline;
+}
+
+.forgotPasswordTxt:hover {
+  color: rgb(224, 222, 61);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .formModalBtn {
+    height: 40px;
+    width: 100px;
+    margin: 0px 0px;
+    font-size: 10px !important;
+    white-space: nowrap;
+  }
+}

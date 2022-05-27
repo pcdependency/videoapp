@@ -1,0 +1,42 @@
+.navContainer {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  /* background-color: red; */
+  background-color: rgb(20, 20, 20);
+}
+
+.navLinksContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navLinkContainer {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  /* background-color: blue; */
+}
+
+@media screen and (max-width: 500px) {
+  .navContainer {
+    height: auto;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
+
+  .navLinksContainer {
+    margin-top: 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navLinkContainer {
+    margin: 0 20px;
+  }
+}

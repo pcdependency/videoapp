@@ -1,0 +1,8 @@
+#mainContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(10, 10, 10);
+  overflow-y: scroll !important;
+  /* background-color: purple; */
+}
